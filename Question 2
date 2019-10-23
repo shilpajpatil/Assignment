@@ -1,0 +1,12 @@
+#Write a program which contains one function named as ChkNum() which accept one
+parameter as number. If number is even then it should display “Even number” otherwise
+display “Odd number” on console.
+
+def chkNum(num1):
+    if ((num1%2)==0):
+        print(num1,"is even")
+    else:
+        print(num1,"is odd")
+
+number=int(input("enter a number"))
+chkNum(number)
