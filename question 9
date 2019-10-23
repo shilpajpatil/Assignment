@@ -1,0 +1,7 @@
+#Write a program which display first 10 even numbers on screen.
+
+def evennum(num1):
+    for i in range(0,num1,2):
+        print(i)
+number=int(input("enter a number"))
+evenum(number)
