@@ -1,0 +1,8 @@
+#Write a program which accept number from user and print that number of “*” on screen.
+def multi(num1):
+    for i in range(num1):
+        print("*")
+
+num1=int(input("enter a number"))
+print (num1)
+multi(num1)
