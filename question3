@@ -1,0 +1,11 @@
+#Write a program which contains one function named as Add() which accepts two numbers
+#from user and return addition of that two numbers.
+
+def add(num1,num2):
+    result=num1+num2
+    return result
+
+number1=int(input("enter a number"))
+number2=int(input("enter a second number"))
+addition=add(number1,number2)
+print("addition:",addition)
