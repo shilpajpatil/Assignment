@@ -1,12 +1,11 @@
-def add(num1,num2):
-    return (num1+num2)
 
-def sub(num1,num2):
-    return (num1-num2)
-
-def mul(num1,num2):
-    return (num1*num2)
-
-def div(num1,num2):
-    return (num1/num2)
-
+i=1
+j=1
+def pattern(irow,icol):
+    for i in range (irow):
+        for j in range (icol):
+            if((irow==icol) or (irow>icol)):
+                print( '*' ,end=' ')
+            else:
+                pass
+        print()
